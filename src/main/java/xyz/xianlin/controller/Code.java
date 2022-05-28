@@ -15,7 +15,7 @@ public class Code {
     // 业务异常状态码
     public static final Integer BUSINESS_ERR = 401;
     // 未知异常状态码
-    public static final Integer SYSTEM_UNKEOW_ERR = 401;
+    public static final Integer SYSTEM_UNKEOW_ERR = 404;
     
     
 }

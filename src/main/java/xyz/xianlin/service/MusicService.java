@@ -22,5 +22,5 @@ public interface MusicService {
      * 删除用户收藏的音乐
      * @param musicData 用户QQ和音乐ID
      */
-    void deleteMusic(MusicData musicData);
+    void deleteMusic(String userQQ, String musicId);
 }
