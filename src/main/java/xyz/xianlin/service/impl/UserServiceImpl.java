@@ -10,24 +10,20 @@ import xyz.xianlin.service.UserService;
 import java.util.List;
 
 @Service // 标识为 Spring Bean
-public class UserServiceImpl implements UserService {
+public class UserServiceImpl {
     @Autowired
     private UserDao userDao;
     
-    @Override
     public UserData selectByUserQQ(String userQQ) {
-//        return userDao.selectByUserQQ(userQQ);
         QueryWrapper<UserData> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("user_qq", userQQ);
         List<UserData> userData = userDao.selectList(queryWrapper);
         if (userData.size() == 0) return null;
         UserData user = userData.get(0);
         return new UserData(user.getId(), user.getUserQQ(), user.getUserName());
-//        return userData.get(0);
     }
     
     
-    @Override
     public UserData selectByUserQQAndUserPassword(UserData userData) {
 //        return userDao.selectByUserQQAndUserPassword(userData);
         QueryWrapper<UserData> queryWrapper = new QueryWrapper<>();
@@ -38,9 +34,7 @@ public class UserServiceImpl implements UserService {
         return userData1.get(0);
     }
     
-    @Override
     public void insertUser(UserData userData) {
-//        boolean b = userDao.insertUser(userData);
         userDao.insert(userData);
     }
 }

@@ -12,6 +12,12 @@ public class MusicData {
     public MusicData() {
     }
     
+    public MusicData(String userQQ, String musicId, String qId) {
+        this.userQQ = userQQ;
+        this.musicId = musicId;
+        this.qId = qId;
+    }
+    
     public MusicData(String userQQ, String musicId) {
         this.userQQ = userQQ;
         this.musicId = musicId;

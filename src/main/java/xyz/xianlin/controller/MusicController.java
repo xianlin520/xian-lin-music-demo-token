@@ -18,17 +18,18 @@ public class MusicController {
     
     @GetMapping("/{userQQ}") // 指定请求方式
     public Result getMusicListByUserQQ(@PathVariable String userQQ) {
-        List<MusicData> musicList = musicService.getMusicListByUserQQ(userQQ);
-        return new Result(Code.GET_OK, musicList);
+        List<String> musicList = musicService.getMusicListByUserQQ(userQQ);
+        return new Result(Code.GET_OK, musicList, "获取成功");
     }
     
-    @PutMapping // 指定请求方式为PUT, 用于插入新数据
-    public Result insertUser(@RequestBody MusicData musicData) {
+    @PutMapping({"/{musicID}"}) // 指定请求方式为PUT, 用于插入新数据
+    public Result insertUser(@PathVariable String musicID, HttpServletRequest res) {
         try {
-            musicService.addMusic(musicData);
-            return new Result(Code.PUT_OK, musicData, "数据插入成功");
+            String userQQ = JwtUtil.getInfo(res.getHeader("Authorization")).get("userQQ").toString();
+            musicService.addMusic(userQQ, musicID);
+            return new Result(Code.PUT_OK, Code.POST_OK, "添加成功");
         } catch (Exception e) {
-            return new Result(Code.PUT_ERR, musicData, "数据插入失败, 数据库内已存在该数据");
+            return new Result(Code.POST_ERR, Code.POST_ERR, "插入数据失败");
         }
     }
     @DeleteMapping("/{musicID}")

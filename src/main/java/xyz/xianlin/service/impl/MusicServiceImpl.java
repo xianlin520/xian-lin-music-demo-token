@@ -7,28 +7,30 @@ import xyz.xianlin.dao.MusicDao;
 import xyz.xianlin.domain.MusicData;
 import xyz.xianlin.service.MusicService;
 
+import java.util.ArrayList;
 import java.util.List;
 @Service // 标识为 Spring Bean
-public class MusicServiceImpl implements MusicService {
+public class MusicServiceImpl{
     @Autowired
     private MusicDao musicDao;
-    @Override
-    public List<MusicData> getMusicListByUserQQ(String userQQ) {
+    public List<String> getMusicListByUserQQ(String userQQ) {
         QueryWrapper<MusicData> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("user_qq", userQQ);
         List<MusicData> musicData = musicDao.selectList(queryWrapper);
-        return musicData;
+        List<String> retList = new ArrayList<>();
+        for (MusicData musicDatum : musicData) {
+            retList.add(musicDatum.getMusicId());
+        }
+        return retList;
     }
     
-    @Override
-    public void addMusic(MusicData musicData) {
+    public void addMusic(String userQQ, String musicId) {
         // 把QQ和音乐id拼成qId存入数据库, 做唯一认证
-        String s = musicData.getUserQQ() + musicData.getMusicId() + "";
-        musicData.setqId(s);
+        String qId = userQQ + musicId + "";
+        MusicData musicData = new MusicData(userQQ, musicId, qId);
         musicDao.insert(musicData);
     }
     
-    @Override
     public void deleteMusic(String userQQ, String musicId) {
         QueryWrapper<MusicData> queryWrapper = new QueryWrapper<>();
         String s = userQQ + musicId + "";
