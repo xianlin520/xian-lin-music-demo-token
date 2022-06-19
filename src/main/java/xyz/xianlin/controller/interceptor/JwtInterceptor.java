@@ -1,5 +1,6 @@
 package xyz.xianlin.controller.interceptor;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -11,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 @Component // 设置为Spring的组件
+@Slf4j // 启用日志
 public class JwtInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -21,15 +23,24 @@ public class JwtInterceptor implements HandlerInterceptor {
         
         //从 http 请求头中取出 token
         String token = request.getHeader("Authorization");
-//        System.out.println("此处测试是否拿到了token：" + token);
         
+        // 获取访问者端口
+        int port = request.getRemotePort();
+        // 获取访问者IP
+        String ipAddress = request.getRemoteAddr();
+        // 获取访问者访问的路径
+        String path = request.getRequestURI();
+        // 获取访问者访问的方式
+        String method = request.getMethod();
         if (token == null) {
-//            throw new RuntimeException("无 token ，请重新登陆");
+            log.info("未携带token，访问被拒，访问路径[{}] 访问方式[{}], IP：{}, 端口：{}", path, method, ipAddress, port);
             throw new BusinessException(Code.BUSINESS_ERR ,"无 token ，请重新登陆");
         }
         if (JwtUtil.checkSign(token)) {
+            log.info("Token验证成功，访问路径[{}] 访问方式[{}], IP：{}, 端口：{}", path, method, ipAddress, port);
             return true;
         }else {
+            log.info("Token验证失败，访问被拒，访问路径[{}] 访问方式[{}], IP：{}, 端口：{}", path, method, ipAddress, port);
             throw new BusinessException(Code.BUSINESS_ERR ,"token 验证失败");
         }
 //        return true;

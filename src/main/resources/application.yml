@@ -16,8 +16,8 @@ spring:
     url: jdbc:mysql://localhost:3306/db1?useSSL=false
     username: root
     password: 1234
+
     # 关闭SpringBoot启动日志
-    logging.level.org.springframework.boot.autoconfigure: error
 logging:
   # 配置LogBack日志框架配文件路径
   config: classpath:logback/dev-logback.xml
@@ -44,7 +44,7 @@ spring:
     url: jdbc:mysql://bj-cynosdbmysql-grp-9d5xmnss.sql.tencentcdb.com:21898/webdata?useSSL=false
     username: root
     password: wgw147741QWE
-  logging:
-    # 配置LogBack日志框架配文件路径
-    config: classpath:logback/dev-logback.xml
+logging:
+  # 配置LogBack日志框架配文件路径
+  config: classpath:logback/dev-logback.xml
 

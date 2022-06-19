@@ -1,5 +1,6 @@
 package xyz.xianlin.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import xyz.xianlin.domain.UserData;
@@ -14,6 +15,7 @@ import java.util.UUID;
 @RestController // 标记为控制器
 @CrossOrigin // 解决跨域问题
 @RequestMapping("/users") // 指定请求路径
+@Slf4j // 启用日志
 public class UserController {
     @Autowired // 注入UserService
     private UserServiceImpl userService;
@@ -36,8 +38,11 @@ public class UserController {
             info.put("userQQ", userDataRet.getUserQQ());
             //生成JWT字符串
             String token = JwtUtil.sign(userId, info);
+            // 打印日志
+            log.info("用户 [{}] Token获取成功, Token为 [{}]", userDataRet.getUserQQ(), token);
             return new Result(Code.POST_OK, token, "登录成功"); // 正常返回
         }
+        log.info("用户 [{}] 尝试登录失败, 尝试的密码为 [{}]", userData.getUserQQ(), userData.getUserPassword());
         return new Result(Code.POST_ERR, null, "用户名或密码错误");
         
     }
@@ -45,8 +50,10 @@ public class UserController {
     public Result insertUser(@RequestBody UserData userData) {
         try {
             userService.insertUser(userData);
+            log.info("用户 [{}] 注册成功, 密码为[{}]", userData.getUserQQ(), userData.getUserPassword());
             return new Result(Code.PUT_OK, null, "数据插入成功");
         } catch (Exception e) {
+            log.info("用户 [{}] 尝试注册时失败, 可能是用户名已存在", userData.getUserQQ());
             return new Result(Code.PUT_ERR, null, "数据插入失败, 数据库内已存在该用户");
         }
         

@@ -9,7 +9,7 @@ import xyz.xianlin.util.JwtUtil;
 @RestController // 标记为控制器
 @CrossOrigin // 解决跨域问题
 @RequestMapping("/token") // 指定请求路径
-@Slf4j // 导入日志框架
+@Slf4j // 启用日志
 public class TokenController {
     @GetMapping("/{token}")
     public Result selectByToken(@PathVariable String token) {
