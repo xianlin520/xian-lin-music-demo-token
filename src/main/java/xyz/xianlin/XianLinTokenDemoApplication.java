@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class XianLinTokenDemoApplication {
     
     public static void main(String[] args) {
+        
         SpringApplication.run(XianLinTokenDemoApplication.class, args);
     }
     

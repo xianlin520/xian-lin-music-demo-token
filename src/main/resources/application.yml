@@ -16,21 +16,11 @@ spring:
     url: jdbc:mysql://localhost:3306/db1?useSSL=false
     username: root
     password: 1234
-#Redis服务器配置
-#  redis:
-#    host: localhost
-#    port: 6379
----
-# 设置test生产环境
-spring:
-  profiles: test
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    Type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://bj-cynosdbmysql-grp-9d5xmnss.sql.tencentcdb.com:21898/webdata?useSSL=false
-    username: root
-    password: wgw147741QWE
-
+    # 关闭SpringBoot启动日志
+    logging.level.org.springframework.boot.autoconfigure: error
+logging:
+  # 配置LogBack日志框架配文件路径
+  config: classpath:logback/dev-logback.xml
 ---
 # 设置prod生产环境
 spring:
@@ -41,4 +31,20 @@ spring:
     url: jdbc:mysql://172.21.0.13:3306/webdata?useSSL=false
     username: root
     password: wgw147741QWE
+logging:
+  # 配置LogBack日志框架配文件路径
+  config: classpath:logback/prod-logback.xml
+---
+# 设置test生产环境
+spring:
+  profiles: test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    Type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://bj-cynosdbmysql-grp-9d5xmnss.sql.tencentcdb.com:21898/webdata?useSSL=false
+    username: root
+    password: wgw147741QWE
+  logging:
+    # 配置LogBack日志框架配文件路径
+    config: classpath:logback/dev-logback.xml
 

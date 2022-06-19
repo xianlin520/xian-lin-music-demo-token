@@ -5,12 +5,17 @@
 > - 前端框架: [Vue](https://cn.vuejs.org/) 页面元素框架: [Element-UI](https://element.eleme.cn/)
 > - 后端语言: [Java](https://www.java.com/)  - JDK1.8
     | 框架: [Spring Boot](https://spring.io/projects/spring-boot) | [Mybatis-Plus](https://baomidou.com)
+> - 后端日志框架: [Logback](https://logback.qos.ch/)(SpringBoot默认日志框架)
 > - 前后端交互框架: [Axios](https://www.axios-http.cn/)
 > - 数据库: [MySQL](https://www.mysql.com/)
 > - 部署环境: [Tomcat](https://www.apache.org/tomcat/), [腾讯云](https://cloud.tencent.com/)
 > - 前端代码托管: [GitHub - Vue2](https://github.com/xianlin520/xian-lin-web-demo-vue2)
 > - 后端代码托管: [GitHub - SpringBoot](https://github.com/xianlin520/xian-lin-music-demo-token)
 ---
+> ### 2022年6月19日 - 更新日志Logback
+> - 使用Logback日志框架(SpringBoot2.0内置支持)
+> - 更新日志框架: [Logback](https://logback.qos.ch/)
+
 > ### 2022年5月27日 更新代码托管仓库-更新逻辑
 > - 更新后端代码托管仓库: [GitHub](https://github.com/xianlin520/xian-lin-music-demo-token)
 | [Gitee](https://gitee.com/xianlin-i/xian-lin-music-demo-token) (暂不可访问)
