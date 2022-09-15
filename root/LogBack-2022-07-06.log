@@ -1,0 +1,145 @@
+2022-07-06 15:02:40,397 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: Starting XianLinTokenDemoApplicationTests using Java 1.8.0_321 on PC-XIANLIN with PID 18588 (started by Administrator in F:\JavaWeb_XianLin\XianLin_TokenDemo)
+2022-07-06 15:02:40,399 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: The following 1 profile is active: "prod"
+2022-07-06 15:02:40,425 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-07-06 15:02:40,426 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 27:13]
+2022-07-06 15:02:40,426 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 12:13]
+2022-07-06 15:02:41,069 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:02:41,073 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-06 15:02:41,099 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-07-06 15:02:42,055 [WARN ] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "xyz.xianlin.domain.MusicData".
+2022-07-06 15:02:43,433 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: Started XianLinTokenDemoApplicationTests in 3.427 seconds (JVM running for 4.425)
+2022-07-06 15:02:43,723 [INFO ] com.alibaba.druid.pool.DruidDataSource: {dataSource-0} closing ...
+2022-07-06 15:02:53,729 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: Starting XianLinTokenDemoApplicationTests using Java 1.8.0_321 on PC-XIANLIN with PID 16840 (started by Administrator in F:\JavaWeb_XianLin\XianLin_TokenDemo)
+2022-07-06 15:02:53,730 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: The following 1 profile is active: "prod"
+2022-07-06 15:02:53,754 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-07-06 15:02:53,754 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 27:13]
+2022-07-06 15:02:53,754 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 12:13]
+2022-07-06 15:02:54,262 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:02:54,266 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-06 15:02:54,290 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-07-06 15:02:55,278 [WARN ] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "xyz.xianlin.domain.MusicData".
+2022-07-06 15:02:56,561 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: Started XianLinTokenDemoApplicationTests in 3.211 seconds (JVM running for 4.206)
+2022-07-06 15:02:56,806 [INFO ] com.alibaba.druid.pool.DruidDataSource: {dataSource-0} closing ...
+2022-07-06 15:03:01,696 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: Starting XianLinTokenDemoApplication using Java 1.8.0_321 on PC-XIANLIN with PID 18344 (F:\JavaWeb_XianLin\XianLin_TokenDemo\target\classes started by Administrator in F:\JavaWeb_XianLin\XianLin_TokenDemo)
+2022-07-06 15:03:01,699 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: The following 1 profile is active: "prod"
+2022-07-06 15:03:01,733 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-07-06 15:03:01,733 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 27:13]
+2022-07-06 15:03:01,733 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 12:13]
+2022-07-06 15:03:02,194 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:03:02,196 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-06 15:03:02,214 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-07-06 15:03:02,621 [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8888 (http)
+2022-07-06 15:03:02,628 [INFO ] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8888"]
+2022-07-06 15:03:02,629 [INFO ] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-07-06 15:03:02,629 [INFO ] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-06 15:03:02,761 [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-07-06 15:03:02,761 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1027 ms
+2022-07-06 15:03:03,119 [WARN ] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "xyz.xianlin.domain.MusicData".
+2022-07-06 15:03:03,669 [INFO ] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8888"]
+2022-07-06 15:03:03,683 [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8888 (http) with context path ''
+2022-07-06 15:03:03,691 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: Started XianLinTokenDemoApplication in 2.476 seconds (JVM running for 3.042)
+2022-07-06 15:03:03,693 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: ===========================
+2022-07-06 15:03:03,693 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: SpringBoot项目启动成功
+2022-07-06 15:03:03,693 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: ===========================
+2022-07-06 15:03:30,158 [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 15:03:30,159 [INFO ] org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-07-06 15:03:30,159 [INFO ] org.springframework.web.servlet.DispatcherServlet: Completed initialization in 0 ms
+2022-07-06 15:03:30,180 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：0:0:0:0:0:0:0:1, 端口：4961
+2022-07-06 15:03:30,265 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：0:0:0:0:0:0:0:1, 端口：4961
+2022-07-06 15:03:55,769 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：0:0:0:0:0:0:0:1, 端口：4961
+2022-07-06 15:04:19,088 [INFO ] com.alibaba.druid.pool.DruidDataSource: {dataSource-0} closing ...
+2022-07-06 15:04:23,568 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: Starting XianLinTokenDemoApplication using Java 1.8.0_321 on PC-XIANLIN with PID 19512 (F:\JavaWeb_XianLin\XianLin_TokenDemo\target\classes started by Administrator in F:\JavaWeb_XianLin\XianLin_TokenDemo)
+2022-07-06 15:04:23,570 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: The following 1 profile is active: "prod"
+2022-07-06 15:04:23,602 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-07-06 15:04:23,602 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 27:13]
+2022-07-06 15:04:23,602 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 12:13]
+2022-07-06 15:04:24,068 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:04:24,070 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-06 15:04:24,086 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-07-06 15:04:24,475 [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8888 (http)
+2022-07-06 15:04:24,482 [INFO ] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8888"]
+2022-07-06 15:04:24,483 [INFO ] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-07-06 15:04:24,483 [INFO ] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-06 15:04:24,605 [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-07-06 15:04:24,605 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1002 ms
+2022-07-06 15:04:24,956 [WARN ] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "xyz.xianlin.domain.MusicData".
+2022-07-06 15:04:25,513 [INFO ] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8888"]
+2022-07-06 15:04:25,534 [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8888 (http) with context path ''
+2022-07-06 15:04:25,541 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: Started XianLinTokenDemoApplication in 2.397 seconds (JVM running for 2.993)
+2022-07-06 15:04:25,543 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: ===========================
+2022-07-06 15:04:25,543 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: SpringBoot项目启动成功
+2022-07-06 15:04:25,543 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: ===========================
+2022-07-06 15:04:27,208 [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 15:04:27,208 [INFO ] org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-07-06 15:04:27,209 [INFO ] org.springframework.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+2022-07-06 15:04:29,660 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：0:0:0:0:0:0:0:1, 端口：5006
+2022-07-06 15:05:44,305 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：5063
+2022-07-06 15:05:44,365 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：5063
+2022-07-06 15:07:15,326 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：14911
+2022-07-06 15:07:15,926 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：14911
+2022-07-06 15:07:16,464 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：14911
+2022-07-06 15:07:40,780 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：14911
+2022-07-06 15:07:43,719 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：14911
+2022-07-06 15:07:46,288 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：14911
+2022-07-06 15:11:21,334 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9468
+2022-07-06 15:11:33,722 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9468
+2022-07-06 15:11:33,745 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9468
+2022-07-06 15:11:34,240 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9468
+2022-07-06 15:11:34,267 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9468
+2022-07-06 15:11:41,757 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9468
+2022-07-06 15:11:44,114 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9468
+2022-07-06 15:12:00,810 [INFO ] com.alibaba.druid.pool.DruidDataSource: {dataSource-0} closing ...
+2022-07-06 15:12:05,438 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: Starting XianLinTokenDemoApplication using Java 1.8.0_321 on PC-XIANLIN with PID 10700 (F:\JavaWeb_XianLin\XianLin_TokenDemo\target\classes started by Administrator in F:\JavaWeb_XianLin\XianLin_TokenDemo)
+2022-07-06 15:12:05,440 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: The following 1 profile is active: "prod"
+2022-07-06 15:12:05,470 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-07-06 15:12:05,470 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 27:13]
+2022-07-06 15:12:05,470 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 12:13]
+2022-07-06 15:12:05,934 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 15:12:05,937 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-06 15:12:05,955 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-07-06 15:12:06,315 [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8888 (http)
+2022-07-06 15:12:06,321 [INFO ] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8888"]
+2022-07-06 15:12:06,322 [INFO ] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-07-06 15:12:06,322 [INFO ] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-06 15:12:06,428 [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-07-06 15:12:06,428 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 957 ms
+2022-07-06 15:12:06,795 [WARN ] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "xyz.xianlin.domain.MusicData".
+2022-07-06 15:12:07,412 [INFO ] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8888"]
+2022-07-06 15:12:07,426 [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8888 (http) with context path ''
+2022-07-06 15:12:07,433 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: Started XianLinTokenDemoApplication in 2.429 seconds (JVM running for 2.997)
+2022-07-06 15:12:07,435 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: ===========================
+2022-07-06 15:12:07,435 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: SpringBoot项目启动成功
+2022-07-06 15:12:07,435 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: ===========================
+2022-07-06 15:12:07,667 [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 15:12:07,668 [INFO ] org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-07-06 15:12:07,668 [INFO ] org.springframework.web.servlet.DispatcherServlet: Completed initialization in 0 ms
+2022-07-06 18:07:41,349 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: Starting XianLinTokenDemoApplication using Java 1.8.0_321 on PC-XIANLIN with PID 8352 (F:\JavaWeb_XianLin\XianLin_TokenDemo\target\classes started by Administrator in F:\JavaWeb_XianLin\XianLin_TokenDemo)
+2022-07-06 18:07:41,352 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: The following 1 profile is active: "prod"
+2022-07-06 18:07:41,385 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-07-06 18:07:41,386 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 27:13]
+2022-07-06 18:07:41,386 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 12:13]
+2022-07-06 18:07:42,000 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-06 18:07:42,003 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-06 18:07:42,022 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-07-06 18:07:42,489 [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8888 (http)
+2022-07-06 18:07:42,495 [INFO ] org.apache.coyote.http11.Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8888"]
+2022-07-06 18:07:42,496 [INFO ] org.apache.catalina.core.StandardService: Starting service [Tomcat]
+2022-07-06 18:07:42,496 [INFO ] org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-06 18:07:42,621 [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+2022-07-06 18:07:42,621 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1234 ms
+2022-07-06 18:07:42,977 [WARN ] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "xyz.xianlin.domain.MusicData".
+2022-07-06 18:07:43,630 [INFO ] org.apache.coyote.http11.Http11NioProtocol: Starting ProtocolHandler ["http-nio-8888"]
+2022-07-06 18:07:43,651 [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8888 (http) with context path ''
+2022-07-06 18:07:43,661 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: Started XianLinTokenDemoApplication in 2.757 seconds (JVM running for 3.315)
+2022-07-06 18:07:43,663 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: ===========================
+2022-07-06 18:07:43,663 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: SpringBoot项目启动成功
+2022-07-06 18:07:43,663 [INFO ] xyz.xianlin.XianLinTokenDemoApplication: ===========================
+2022-07-06 18:07:52,189 [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-06 18:07:52,189 [INFO ] org.springframework.web.servlet.DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-07-06 18:07:52,190 [INFO ] org.springframework.web.servlet.DispatcherServlet: Completed initialization in 1 ms
+2022-07-06 18:07:52,215 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：2825
+2022-07-06 18:07:52,318 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：2825
+2022-07-06 18:31:56,010 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9100
+2022-07-06 18:31:56,701 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9100
+2022-07-06 18:31:57,437 [INFO ] xyz.xianlin.controller.interceptor.JwtInterceptor: 未携带token，访问被拒，访问路径[/error] 访问方式[GET], IP：172.27.80.1, 端口：9100
+2022-07-06 18:57:37,249 [INFO ] com.alibaba.druid.pool.DruidDataSource: {dataSource-0} closing ...

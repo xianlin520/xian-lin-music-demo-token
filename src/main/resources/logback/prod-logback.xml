@@ -3,7 +3,7 @@
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
     <property name="log" value="root"/>
     <!-- 定义日志输出格式 -->
-    <property name="log_pattern" value="%d{HH:mm:ss.SSS} [%-5level] %logger{50} [%thread] : %msg%n"/>
+    <property name="log_pattern" value="%d{MM-dd HH:mm:ss.Asia/Shanghai} [%-5level] %logger{50}: %msg%n"/>
     <!-- 控制台输出 -->
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <!-- 日志输出编码 -->

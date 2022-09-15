@@ -1,0 +1,22 @@
+06-22 15:45:43.323 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: Starting XianLinTokenDemoApplicationTests using Java 1.8.0_321 on PC-XIANLIN with PID 13712 (started by Administrator in F:\JavaWeb_XianLin\XianLin_TokenDemo)
+06-22 15:45:43.324 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: The following 1 profile is active: "prod"
+06-22 15:45:43.347 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+06-22 15:45:43.348 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 27:13]
+06-22 15:45:43.348 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 12:13]
+06-22 15:45:43.820 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+06-22 15:45:43.822 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+06-22 15:45:43.843 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+06-22 15:45:44.712 [WARN ] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "xyz.xianlin.domain.MusicData".
+06-22 15:45:45.862 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: Started XianLinTokenDemoApplicationTests in 2.862 seconds (JVM running for 3.614)
+06-22 15:45:46.072 [INFO ] com.alibaba.druid.pool.DruidDataSource: {dataSource-0} closing ...
+2022-06-22 15:59:52,549 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: Starting XianLinTokenDemoApplicationTests using Java 1.8.0_321 on PC-XIANLIN with PID 11016 (started by Administrator in F:\JavaWeb_XianLin\XianLin_TokenDemo)
+2022-06-22 15:59:52,551 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: The following 1 profile is active: "prod"
+2022-06-22 15:59:52,576 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 40:13]
+2022-06-22 15:59:52,576 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 27:13]
+2022-06-22 15:59:52,576 [WARN ] o.s.boot.context.config.ConfigDataEnvironment: Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 12:13]
+2022-06-22 15:59:53,192 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-22 15:59:53,196 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-22 15:59:53,217 [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-06-22 15:59:54,302 [WARN ] c.b.mybatisplus.core.metadata.TableInfoHelper: Can not find table primary key in Class: "xyz.xianlin.domain.MusicData".
+2022-06-22 15:59:55,561 [INFO ] xyz.xianlin.XianLinTokenDemoApplicationTests: Started XianLinTokenDemoApplicationTests in 3.352 seconds (JVM running for 4.174)
+2022-06-22 15:59:55,810 [INFO ] com.alibaba.druid.pool.DruidDataSource: {dataSource-0} closing ...

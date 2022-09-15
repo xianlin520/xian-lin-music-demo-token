@@ -18,7 +18,7 @@
 
 > ### 2022年5月27日 更新代码托管仓库-更新逻辑
 > - 更新后端代码托管仓库: [GitHub](https://github.com/xianlin520/xian-lin-music-demo-token)
-| [Gitee](https://gitee.com/xianlin-i/xian-lin-music-demo-token) (暂不可访问)
+| [Gitee](https://gitee.com/xianlin-i/xian-lin-music-demo-token)
 > - 将后端会话权限管理改为Token(JWT)
 > - 将前端分离 - 单独部署前端项目 前端项目地址: [Github](https://github.com/xianlin520/xian-lin-web-demo-vue2)
 

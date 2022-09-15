@@ -4,7 +4,7 @@ server:
 # 使用开发环境
 spring:
   profiles:
-    active: prod
+    active: dev
 #    active: test
 ---
 # 设置dev开发环境
