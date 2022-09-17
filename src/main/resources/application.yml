@@ -20,8 +20,8 @@ spring:
   mail:
     host: smtp.163.com   # 声明邮箱域名
     port: 465             # 邮箱端口
-    username: wanganning5201314@163.com    # 邮箱账号
-    password: RBNJGWNAHZSMLRTO   # 邮箱授权码
+    username: wanga****com    # 邮箱账号
+    password: RBNJ*****SMLRTO   # 邮箱授权码
     protocol: smtp       # 协议
     # 发送邮件时采用ssl安全连接
     properties:
