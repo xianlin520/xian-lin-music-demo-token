@@ -32,27 +32,8 @@ public class MusicData {
                 '}';
     }
     
-    public String getUserQQ() {
-        return userQQ;
-    }
-    
-    public void setUserQQ(String userQQ) {
-        this.userQQ = userQQ;
-    }
-    
     public String getMusicId() {
         return musicId;
     }
     
-    public void setMusicId(String musicId) {
-        this.musicId = musicId;
-    }
-    
-    public String getqId() {
-        return qId;
-    }
-    
-    public void setqId(String qId) {
-        this.qId = qId;
-    }
 }

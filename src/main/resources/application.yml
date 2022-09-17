@@ -16,6 +16,20 @@ spring:
     url: jdbc:mysql://localhost:3306/db1?useSSL=false
     username: root
     password: 1234
+  # MailProperties 邮箱设置
+  mail:
+    host: smtp.163.com   # 声明邮箱域名
+    port: 465             # 邮箱端口
+    username: wanganning5201314@163.com    # 邮箱账号
+    password: RBNJGWNAHZSMLRTO   # 邮箱授权码
+    protocol: smtp       # 协议
+    # 发送邮件时采用ssl安全连接
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+
 
     # 关闭SpringBoot启动日志
 logging:
